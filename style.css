@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', 'Lexend Deca', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.teal {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange-text {
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan-text {
+    color: hsl(184, 100%, 22%);
+}
+
+.teal-text {
+    color: hsl(179, 100%, 13%);
+}
+
+.box {
+    height: 450px;
+    width: 240px;
+    padding: 40px;
+    position: relative;
+
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.car-icon {
+    height: auto;
+    width: 70px;
+    padding-bottom: 70px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+p {
+    color: white;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    height: 50px;
+    width: 175px;
+    border-radius: 25px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+   position: absolute;
+   bottom: 40px;
+}
